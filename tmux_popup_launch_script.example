@@ -1,0 +1,11 @@
+#!/usr/bin/env fish
+
+# Ensure tmux session exists
+if not tmux has-session -t popup 2>/dev/null
+    tmux new-session -d -s popup spotify_player
+end
+
+# Launch Kitty only if it isn't running
+if not pgrep -f "kitty.*--class tmux-popup" >/dev/null
+    kitty --class tmux-popup tmux attach-session -t popup &
+end
