@@ -1,0 +1,19 @@
+{
+  "KPackageStructure": "KWin/Script",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "Bartmoss"
+      }
+    ],
+    "Category": "Window Management",
+    "Description": "Persistent sliding tmux music player popup",
+    "Icon": "preferences-system-windows",
+    "Id": "tmux-popup",
+    "License": "GPL-3.0+",
+    "Name": "Tmux Popup",
+    "Version": "3.1.0"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js"
+}
