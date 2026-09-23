@@ -1,6 +1,6 @@
 This is just a small kwin script I put togther for having quick access to TUI app (currently spotify_player). It's fairly simple and just handles showing/hiding and keeping track of what window was focused before for a smooth workflow. Previously the animation was a pretty cool slide out that was way over the top, but that was causing issues with the tui flickering due to my monitors having different scaling. Instead it's just a fade in/out now :(
 
-
+![](https://github.com/rhys-woolliscroft/Popup/blob/main/example.gif)
 
 You can install it through the cli with:
 
